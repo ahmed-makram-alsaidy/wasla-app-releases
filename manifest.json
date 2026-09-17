@@ -1,0 +1,102 @@
+{
+  "release": "1.1.0",
+  "build": 24,
+  "updated_at": "2026-09-18T00:00:00Z",
+  "apps": {
+    "admin": {
+      "name_ar": "وصلة إدارة",
+      "package_name": "com.waslaexpress.wasla_express.admin",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.0",
+          "build": 24,
+          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-admin-1.1.0-build24.apk",
+          "sha256": "bb9a43859a22a0c2db908194c8811be3bd806e26bd3d0d7dc1a8f271a99c6124",
+          "file_name": "wasla-admin-1.1.0-build24.apk",
+          "size_bytes": 139878230
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        }
+      }
+    },
+    "merchant": {
+      "name_ar": "وصلة تاجر",
+      "package_name": "com.waslaexpress.wasla_express.merchant",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.0",
+          "build": 24,
+          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-merchant-1.1.0-build24.apk",
+          "sha256": "2cc22ffd119c286252f6cfc326f3adf6b0715dc3062d4e667a855268a0593044",
+          "file_name": "wasla-merchant-1.1.0-build24.apk",
+          "size_bytes": 139861822
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        }
+      }
+    },
+    "customer": {
+      "name_ar": "وصلة عميل",
+      "package_name": "com.waslaexpress.wasla_express.customer",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.0",
+          "build": 24,
+          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-customer-1.1.0-build24.apk",
+          "sha256": "2b0ff223bb10667e82c408f966531ea62d585db0f7a97d388933ec0c8e027b2f",
+          "file_name": "wasla-customer-1.1.0-build24.apk",
+          "size_bytes": 139878206
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        }
+      }
+    },
+    "courier": {
+      "name_ar": "وصلة مندوب",
+      "package_name": "com.waslaexpress.wasla_express.courier",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.0",
+          "build": 24,
+          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-courier-1.1.0-build24.apk",
+          "sha256": "7424508c48a59b11562f37f9a3adeed5100eced7dd81b53defa0fa23bd7ee01c",
+          "file_name": "wasla-courier-1.1.0-build24.apk",
+          "size_bytes": 139501454
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        }
+      }
+    },
+    "employee": {
+      "name_ar": "وصلة موظف",
+      "package_name": "com.waslaexpress.wasla_express.employee",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.0",
+          "build": 24,
+          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-employee-1.1.0-build24.apk",
+          "sha256": "4a2ea5ec6b0db890d87516c4f60fdbfc2fed3a29d495a8d23d7418038e40df87",
+          "file_name": "wasla-employee-1.1.0-build24.apk",
+          "size_bytes": 139861906
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        }
+      }
+    }
+  }
+}
