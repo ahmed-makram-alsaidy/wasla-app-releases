@@ -16,21 +16,40 @@ This repository hosts release metadata, distribution manifests, and official rel
 | **Courier** | وصلة مندوب | `com.waslaexpress.wasla_express.courier` | Direct APK | Coming Soon | 1.1.0 | 24 |
 | **Employee** | وصلة موظف | `com.waslaexpress.wasla_express.employee` | Direct APK | Coming Soon | 1.1.0 | 24 |
 
+## Platform Scope
+
+- **Android & iOS:** all five applications (Admin, Merchant, Customer, Courier, Employee).
+- **Windows Desktop:** Admin and Merchant only. Windows portable packages are
+  not published, listed, or advertised for Customer, Courier, or Employee.
+
+| Windows Product | Executable | This repository |
+| :--- | :--- | :--- |
+| **وصلة إدارة** | `wasla_admin.exe` | Supported (public) |
+| **وصلة تاجر** | `wasla_merchant.exe` | Supported (public) |
+| وصلة عميل | — | Not a Windows product |
+| وصلة مندوب | — | Not a Windows product |
+| وصلة موظف | — | Not a Windows product |
+
 ## Release Assets & Downloads
 
 The latest release binaries are published as GitHub Release assets:
-- **Release Tag:** `android-v1.1.0-build24`
-- **Release Title:** Wasla Android Apps v1.1.0 Build 24
+- **Android Release Tag:** `android-v1.1.0-build24`
+- **Windows Release Tag:** `windows-v1.1.0-build24` (Admin and Merchant only)
 - **Manifest:** [`manifest.json`](manifest.json)
 - **Checksums:** `checksums.sha256`
 
-### Direct Download Links
+### Direct Download Links (Android)
 
 - [wasla-admin-1.1.0-build24.apk](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-admin-1.1.0-build24.apk)
 - [wasla-merchant-1.1.0-build24.apk](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-merchant-1.1.0-build24.apk)
 - [wasla-customer-1.1.0-build24.apk](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-customer-1.1.0-build24.apk)
 - [wasla-courier-1.1.0-build24.apk](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-courier-1.1.0-build24.apk)
 - [wasla-employee-1.1.0-build24.apk](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-employee-1.1.0-build24.apk)
+
+### Direct Download Links (Windows — Admin and Merchant only)
+
+- [wasla-admin-windows-1.1.0-build24.zip](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-admin-windows-1.1.0-build24.zip)
+- [wasla-merchant-windows-1.1.0-build24.zip](https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-merchant-windows-1.1.0-build24.zip)
 
 ## Verification
 

@@ -1,7 +1,7 @@
 {
   "release": "1.1.0",
   "build": 24,
-  "updated_at": "2026-09-19T14:45:00Z",
+  "updated_at": "2026-09-19T16:20:00Z",
   "apps": {
     "admin": {
       "name_ar": "وصلة إدارة",
@@ -81,18 +81,6 @@
         "ios": {
           "status": "coming_soon",
           "url": null
-        },
-        "windows": {
-          "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "architecture": "x64",
-          "package_type": "portable_zip",
-          "executable": "wasla_customer.exe",
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-customer-windows-1.1.0-build24.zip",
-          "sha256": "07d365bfee9e8f668101bd596bd655decfb39381d2c139bff6a155923809d1d1",
-          "file_name": "wasla-customer-windows-1.1.0-build24.zip",
-          "size_bytes": 33831872
         }
       }
     },
@@ -112,18 +100,6 @@
         "ios": {
           "status": "coming_soon",
           "url": null
-        },
-        "windows": {
-          "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "architecture": "x64",
-          "package_type": "portable_zip",
-          "executable": "wasla_courier.exe",
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-courier-windows-1.1.0-build24.zip",
-          "sha256": "0f8536ee511c4828b751b023b43cc4f59fc714f18ffd86b0ed7a38c74f0c3e88",
-          "file_name": "wasla-courier-windows-1.1.0-build24.zip",
-          "size_bytes": 33788449
         }
       }
     },
@@ -143,18 +119,6 @@
         "ios": {
           "status": "coming_soon",
           "url": null
-        },
-        "windows": {
-          "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "architecture": "x64",
-          "package_type": "portable_zip",
-          "executable": "wasla_employee.exe",
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-employee-windows-1.1.0-build24.zip",
-          "sha256": "f16e1920fa57384c4f984bf5caef0342864299231bdb4b7e0a9239a4fc6735c6",
-          "file_name": "wasla-employee-windows-1.1.0-build24.zip",
-          "size_bytes": 33828637
         }
       }
     }
