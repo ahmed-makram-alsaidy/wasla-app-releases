@@ -1,20 +1,19 @@
 {
-  "release": "1.1.0",
-  "build": 24,
-  "updated_at": "2026-09-19T16:20:00Z",
+  "release": "1.1.13",
+  "build": 38,
+  "updated_at": "2026-11-10T15:40:00Z",
+  "release_notes": "تطبيق خط قطر الرسمي (Qatar2022Arabic)، إضافة نظام الاقتراحات والتطوير، تفعيل إعادة فتح الشحنات وعكس القيود المالية وتعديل التحصيل، ودعم التحديث التلقائي.",
   "apps": {
-    "admin": {
-      "name_ar": "وصلة إدارة",
-      "package_name": "com.waslaexpress.wasla_express.admin",
+    "full": {
+      "name_ar": "وصلة (النسخة الكاملة)",
+      "package_name": "com.waslaexpress.wasla_express",
       "platforms": {
         "android": {
           "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-admin-1.1.0-build24.apk",
-          "sha256": "bb9a43859a22a0c2db908194c8811be3bd806e26bd3d0d7dc1a8f271a99c6124",
-          "file_name": "wasla-admin-1.1.0-build24.apk",
-          "size_bytes": 139878230
+          "version": "1.1.12",
+          "build": 37,
+          "url": "https://wasla-system.site/downloads/android/1.1.12-37/Wasla-full-1.1.12+37-Android.apk",
+          "file_name": "Wasla-full-1.1.12+37-Android.apk"
         },
         "ios": {
           "status": "coming_soon",
@@ -22,15 +21,44 @@
         },
         "windows": {
           "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
+          "version": "1.1.13",
+          "build": 38,
           "architecture": "x64",
-          "package_type": "portable_zip",
-          "executable": "wasla_admin.exe",
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-admin-windows-1.1.0-build24.zip",
-          "sha256": "aa2dc1216ea09a530e4b76fb4eff1a6c9d95a3e5e2d02ed980e7fd4eb11c64c3",
-          "file_name": "wasla-admin-windows-1.1.0-build24.zip",
-          "size_bytes": 33832217
+          "package_type": "installer_exe",
+          "executable": "wasla_express.exe",
+          "url": "https://wasla-system.site/downloads/windows/1.1.13-38/Wasla_1.1.13_Setup.exe",
+          "sha256": "20dab256b651968ed4fdd69d63052495e615d001c613ee16801c071ad5e45865",
+          "file_name": "Wasla_1.1.13_Setup.exe",
+          "size_bytes": 25948272
+        }
+      }
+    },
+    "admin": {
+      "name_ar": "وصلة إدارة",
+      "package_name": "com.waslaexpress.wasla_express.admin",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.12",
+          "build": 37,
+          "url": "https://wasla-system.site/downloads/android/1.1.12-37/Wasla-admin-1.1.12+37-Android.apk",
+          "file_name": "Wasla-admin-1.1.12+37-Android.apk"
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        },
+        "windows": {
+          "status": "direct",
+          "version": "1.1.13",
+          "build": 38,
+          "architecture": "x64",
+          "package_type": "installer_exe",
+          "executable": "wasla_express.exe",
+          "url": "https://wasla-system.site/downloads/windows/1.1.13-38/Wasla_1.1.13_Setup.exe",
+          "sha256": "20dab256b651968ed4fdd69d63052495e615d001c613ee16801c071ad5e45865",
+          "file_name": "Wasla_1.1.13_Setup.exe",
+          "size_bytes": 25948272
         }
       }
     },
@@ -40,12 +68,10 @@
       "platforms": {
         "android": {
           "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-merchant-1.1.0-build24.apk",
-          "sha256": "2cc22ffd119c286252f6cfc326f3adf6b0715dc3062d4e667a855268a0593044",
-          "file_name": "wasla-merchant-1.1.0-build24.apk",
-          "size_bytes": 139861822
+          "version": "1.1.12",
+          "build": 37,
+          "url": "https://wasla-system.site/downloads/android/1.1.12-37/Wasla-merchant-1.1.12+37-Android.apk",
+          "file_name": "Wasla-merchant-1.1.12+37-Android.apk"
         },
         "ios": {
           "status": "coming_soon",
@@ -53,34 +79,15 @@
         },
         "windows": {
           "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
+          "version": "1.1.13",
+          "build": 38,
           "architecture": "x64",
-          "package_type": "portable_zip",
-          "executable": "wasla_merchant.exe",
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/windows-v1.1.0-build24/wasla-merchant-windows-1.1.0-build24.zip",
-          "sha256": "558ab798ead62f6655033f9a796190de1a3d33785f53156025d29bb38bd766cc",
-          "file_name": "wasla-merchant-windows-1.1.0-build24.zip",
-          "size_bytes": 33828272
-        }
-      }
-    },
-    "customer": {
-      "name_ar": "وصلة عميل",
-      "package_name": "com.waslaexpress.wasla_express.customer",
-      "platforms": {
-        "android": {
-          "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-customer-1.1.0-build24.apk",
-          "sha256": "2b0ff223bb10667e82c408f966531ea62d585db0f7a97d388933ec0c8e027b2f",
-          "file_name": "wasla-customer-1.1.0-build24.apk",
-          "size_bytes": 139878206
-        },
-        "ios": {
-          "status": "coming_soon",
-          "url": null
+          "package_type": "installer_exe",
+          "executable": "wasla_express.exe",
+          "url": "https://wasla-system.site/downloads/windows/1.1.13-38/Wasla_1.1.13_Setup.exe",
+          "sha256": "20dab256b651968ed4fdd69d63052495e615d001c613ee16801c071ad5e45865",
+          "file_name": "Wasla_1.1.13_Setup.exe",
+          "size_bytes": 25948272
         }
       }
     },
@@ -90,16 +97,55 @@
       "platforms": {
         "android": {
           "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-courier-1.1.0-build24.apk",
-          "sha256": "7424508c48a59b11562f37f9a3adeed5100eced7dd81b53defa0fa23bd7ee01c",
-          "file_name": "wasla-courier-1.1.0-build24.apk",
-          "size_bytes": 139501454
+          "version": "1.1.12",
+          "build": 37,
+          "url": "https://wasla-system.site/downloads/android/1.1.12-37/Wasla-courier-1.1.12+37-Android.apk",
+          "file_name": "Wasla-courier-1.1.12+37-Android.apk"
         },
         "ios": {
           "status": "coming_soon",
           "url": null
+        },
+        "windows": {
+          "status": "direct",
+          "version": "1.1.13",
+          "build": 38,
+          "architecture": "x64",
+          "package_type": "installer_exe",
+          "executable": "wasla_express.exe",
+          "url": "https://wasla-system.site/downloads/windows/1.1.13-38/Wasla_1.1.13_Setup.exe",
+          "sha256": "20dab256b651968ed4fdd69d63052495e615d001c613ee16801c071ad5e45865",
+          "file_name": "Wasla_1.1.13_Setup.exe",
+          "size_bytes": 25948272
+        }
+      }
+    },
+    "customer": {
+      "name_ar": "وصلة عميل",
+      "package_name": "com.waslaexpress.wasla_express.customer",
+      "platforms": {
+        "android": {
+          "status": "direct",
+          "version": "1.1.12",
+          "build": 37,
+          "url": "https://wasla-system.site/downloads/android/1.1.12-37/Wasla-customer-1.1.12+37-Android.apk",
+          "file_name": "Wasla-customer-1.1.12+37-Android.apk"
+        },
+        "ios": {
+          "status": "coming_soon",
+          "url": null
+        },
+        "windows": {
+          "status": "direct",
+          "version": "1.1.13",
+          "build": 38,
+          "architecture": "x64",
+          "package_type": "installer_exe",
+          "executable": "wasla_express.exe",
+          "url": "https://wasla-system.site/downloads/windows/1.1.13-38/Wasla_1.1.13_Setup.exe",
+          "sha256": "20dab256b651968ed4fdd69d63052495e615d001c613ee16801c071ad5e45865",
+          "file_name": "Wasla_1.1.13_Setup.exe",
+          "size_bytes": 25948272
         }
       }
     },
@@ -109,16 +155,26 @@
       "platforms": {
         "android": {
           "status": "direct",
-          "version": "1.1.0",
-          "build": 24,
-          "url": "https://github.com/ahmed-makram-alsaidy/wasla-app-releases/releases/download/android-v1.1.0-build24/wasla-employee-1.1.0-build24.apk",
-          "sha256": "4a2ea5ec6b0db890d87516c4f60fdbfc2fed3a29d495a8d23d7418038e40df87",
-          "file_name": "wasla-employee-1.1.0-build24.apk",
-          "size_bytes": 139861906
+          "version": "1.1.12",
+          "build": 37,
+          "url": "https://wasla-system.site/downloads/android/1.1.12-37/Wasla-employee-1.1.12+37-Android.apk",
+          "file_name": "Wasla-employee-1.1.12+37-Android.apk"
         },
         "ios": {
           "status": "coming_soon",
           "url": null
+        },
+        "windows": {
+          "status": "direct",
+          "version": "1.1.13",
+          "build": 38,
+          "architecture": "x64",
+          "package_type": "installer_exe",
+          "executable": "wasla_express.exe",
+          "url": "https://wasla-system.site/downloads/windows/1.1.13-38/Wasla_1.1.13_Setup.exe",
+          "sha256": "20dab256b651968ed4fdd69d63052495e615d001c613ee16801c071ad5e45865",
+          "file_name": "Wasla_1.1.13_Setup.exe",
+          "size_bytes": 25948272
         }
       }
     }
